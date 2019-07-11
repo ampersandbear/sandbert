@@ -4,6 +4,11 @@ air_hurtbox_spr = -1;
 hitstun_hurtbox_spr = -1;
 
 char_height = 52;
+idle_anim_speed = .1;
+crouch_anim_speed = .1;
+walk_anim_speed = .125;
+dash_anim_speed = .2;
+pratfall_anim_speed = .25;
 
 walk_speed = 3.25;
 walk_accel = 0.2;
@@ -45,6 +50,11 @@ prat_land_time = 3;
 wave_land_time = 8;
 wave_land_adj = 1.35; //the multiplier to your initial hsp when wavelanding. Usually greater than 1
 wave_friction = .04; //grounded deceleration when wavelanding
+
+//crouch animation frames
+crouch_startup_frames = 1;
+crouch_active_frames = 1;
+crouch_recovery_frames = 1;
 
 //parry animation frames
 dodge_startup_frames = 1;
