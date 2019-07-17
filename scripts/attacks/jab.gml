@@ -34,6 +34,7 @@ set_hitbox_value(AT_JAB, 1, HG_DAMAGE, 8);
 set_hitbox_value(AT_JAB, 1, HG_ANGLE, 60);
 set_hitbox_value(AT_JAB, 1, HG_BASE_KNOCKBACK, 4);
 set_hitbox_value(AT_JAB, 1, HG_BASE_HITPAUSE, 6);
+set_hitbox_value(AT_JAB, 1, HG_VISUAL_EFFECT, hit_fx_create(sprite_get("plat"), 4));
 set_hitbox_value(AT_JAB, 1, HG_VISUAL_EFFECT_X_OFFSET, 32);
 set_hitbox_value(AT_JAB, 1, HG_VISUAL_EFFECT_Y_OFFSET, -10);
 set_hitbox_value(AT_JAB, 1, HG_HIT_SFX, asset_get("sfx_blow_weak1"));
